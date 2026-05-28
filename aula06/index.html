@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Controle de formularios</title>
+    </head>
+    <body>
+        <h1>Preferência</h1>
+        <form>
+            <label for="nome">nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <p>Qual turno você preferi estudar?</p>
+            <input type="radio" id="turno" name="manha"><label for="manha">Manhã</label><br>
+            <input type="radio" id="turno" name="tarde"><label for="tarde">Tarde</label><br>
+            <input type="radio" id="turno" name="noite"><label for="noite">Noite</label><br>
+                <p>Quais áreas ds tecnologia vc tem interesse?</p>
+                <input type="checkbox" id="areas" name="programação"><label for="programação">Programação</label><br>
+                <input type="checkbox" id="areas" name="desing"><label for="">Desing</label><br>
+                <input type="checkbox" id="areas" name="banco de dados"><label for="banco de dados">Banco de Dados</label><br>
+                <input type="checkbox" id="areas" name="redes"><label for="redes">Redes</label><br>
+            
+                <p>Qual sua cor favorita?</p>
+                <input type="color" name="cor"><br>
+                <p>Qual seu nivel de satisfação?</p>
+                <input type="range" name="barrinha"><br>
+                <p>Qual seu horario preferido?</p>
+                <input type="time" name="tempo"><br>
+                <p>Envie um arquivo <input type="file" name="arquivo"></p><br>
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>
